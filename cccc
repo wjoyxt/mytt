@@ -1,25 +1,3 @@
-"DubboSharedHandler-thread-1" Id=112 TIMED_WAITING on java.util.concurrent.SynchronousQueue$TransferStack@741dc434
-	at sun.misc.Unsafe.park(Native Method)
-	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@741dc434
-	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:226)
-	at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
-	at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:359)
-	at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:942)
-	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1068)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
-	at java.lang.Thread.run(Thread.java:745)
-
-"pool-7-thread-1" Id=111 RUNNABLE
-	at sun.management.ThreadImpl.dumpThreads0(Native Method)
-	at sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:446)
-	at com.alibaba.dubbo.common.utils.JVMUtil.jstack(JVMUtil.java:32)
-	at com.alibaba.dubbo.common.threadpool.support.AbortPolicyWithReport$1.run(AbortPolicyWithReport.java:91)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
-	at java.lang.Thread.run(Thread.java:745)
-
-	Number of locked synchronizers = 1
 	- java.util.concurrent.ThreadPoolExecutor$Worker@58f5d665
 
 "localhost-startStop-2" Id=108 RUNNABLE
